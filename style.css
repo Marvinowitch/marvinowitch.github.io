@@ -5,23 +5,3 @@ html, body {
 canvas {
   display: block;
 }
-
-body {
-  background-color: burlywood;
-}
-
-h1 {
-color: coral;
-
-}
-
-h6 {
-  color: rgb(97, 88, 85);
-  font-size: large;
-}
-
-hr {
-  color: darkgoldenrod;
-  
-}
-
