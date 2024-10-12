@@ -33,8 +33,8 @@ let over = 0;
 
 
 function setup() {
-  canvas = windowHeight;
-  createCanvas(windowHeight, windowHeight);
+  canvas = 800;
+  createCanvas(canvas, canvas);
   x1= 300;
   y1= 500;
   x2= canvas/2;
