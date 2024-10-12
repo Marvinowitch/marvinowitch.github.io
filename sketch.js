@@ -1,6 +1,6 @@
 //Verstellbare Variabeln
 let radius1= 50; 
-let canvas = 600;
+let canvas;
 let radius3= 200;
 
 let xSpeed1= 5;
@@ -33,8 +33,8 @@ let over = 0;
 
 
 function setup() {
-  createCanvas(canvas, canvas);
-  frameRate=200;
+  canvas = windowHeight;
+  createCanvas(windowHeight, windowHeight);
   x1= 300;
   y1= 500;
   x2= canvas/2;
